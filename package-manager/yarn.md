@@ -2,22 +2,22 @@
 
 [Yarn](https://yarnpkg.com/en/) is a package manager created by [Facebook](https://www.facebook.com/) which is **fast**, **reliable**, and **secure**.
 
-## [Basic Usage](#basic-usage)
+## Basic Usage
 
-### [Starting a project](#starting-a-project)
+### Starting a project
 
 ```bash
 yarn init
 ```
 
-### [Installing all dependencies](#intalling-all)
+### Installing all dependencies
 
 ```bash
 yarn
 yarn install
 ```
 
-### [Adding a dependency](#add-a-dependency)
+### Adding a dependency
 
 ```bash
 yarn add [package]
@@ -25,7 +25,7 @@ yarn add [package]@[version]
 yarn add [package]@[tag]
 ```
 
-### [Adding a dependency to different categories](#add-dependency-to-categories)
+### Adding a dependency to different categories
 
 ```bash
 yarn add [package] --dev      // devDependencies
@@ -33,7 +33,7 @@ yarn add [package] --peer     // peerDependencies
 yarn add [package] --optional // optionalDependencies
 ```
 
-### [Upgrading a dependency](#upgrading-dependency)
+### Upgrading a dependency
 
 ```bash
 yarn upgrade [package]
@@ -41,13 +41,13 @@ yarn upgrade [package]@[version]
 yarn upgrade [package]@[tag]
 ```
 
-### [Removing a dependency](#removing-dependency)
+### Removing a dependency
 
 ```bash
 yarn remove [package]
 ```
 
-### [Running scripts](#running-scripts)
+### Running scripts
 
 ```bash
 yarn run [script]
